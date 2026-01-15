@@ -28,5 +28,5 @@ dist
 deploy
 backend/data
 version.sh
-version.json
+# version.json
 .honeyignore
