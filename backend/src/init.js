@@ -128,7 +128,7 @@ module.exports = () => {
       .connect(uri, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        ssl: false,
+        ssl: true,
         family: 4,
       })
       .then(() => {
